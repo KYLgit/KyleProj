@@ -37,13 +37,14 @@ body{
     font-size: 1.5rem;
     color: white;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 1000;
     cursor: pointer;
 }
 .navbar{
     align-content: center;
     align-items: center;
     justify-content: space-between;
+    font-weight:100;
 }
 
 
@@ -132,13 +133,24 @@ body{
     z-index: 0;
 }
 
-@media (max-width: 768px) {
-    .header {
+@media (max-width:775px) {
+    .header{
       flex-direction: column;
-      display:flex;   
-    align-items: center;
+      padding: 5px;
+      height:50px;
+      
     }
-}
+    .Logo{
+        flex-direction: column;
+        margin-right: 450px;
+        font-size: 20px;
+        right: 50px;
+    }
+    .navbar{
+        font-size: 12px;
+        top:-30px;
+        right: 50px;
+    }
 @media (max-width: 375px) {
     .video-background {
       flex-direction: column;
